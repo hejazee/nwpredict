@@ -1,0 +1,291 @@
+A new story
+A new story
+A new story
+A new car
+
+    Related blogs
+A new car worda
+A new car worda
+A new car worda
+A new car wordb
+A new car wordb 
+
+Lifehacker After Hours
+Two Cents
+Workshop
+Vitals
+Skillet
+Shop Talk
+
+    Lifehacker 10
+
+    Blogs you may like
+
+Deadspin
+Gawker
+Gizmodo
+io9
+Jalopnik
+Jezebel
+Kotaku
+Lifehacker
+
+    Sploid
+
+Log in / Sign up
+Follow
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+64,258
+5
+Alan Henry
+Filed to: explainers10/08/14 8:00am
+
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+
+Almost all of us have a predictive keyboard on our smartphone, which suggests upcoming words for super-fast typing. Even so, they're not perfect, and sometimes turn up hilarious results. Luckily, it's not hard to train your keyboard to understand you, once you know how it works.
+
+Android users have had modern (that is, post-T9) predictive keyboards for several years. Before Google's own official keyboard app added prediction, companies like Swype and SwiftKey built keyboards that learn the words you use most often. With the arrival of iOS 8, now iPhone and iPad users can enjoy the same luxury—but as on Android, it comes with a few catches. Prediction can be hilariously bad at first, and takes time to train. Plus, you have to fork over a good bit of data about what you type in order for predictive keyboards to work well. Let's take a look at those issues, and how you can train your keyboard to understand you in short order.
+How Text Prediction Actually Works
+
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+
+Before you can make the most of your predictive keyboard—whether it's the default Google or Apple keyboard, a third-party Android keyboard, or any of the new premium iOS keyboards, you have to understand how prediction really works.
+Five Best Android Keyboards
+
+Finding the perfect Android keyboard is no easy task—there are so many to choose from, and most of…
+Read more
+
+In its most basic form, keyboard prediction uses text that you enter over time to build a custom, local "dictionary" of words and phrases that you've typed repeatedly. It then "scores" those words by the probability you'll use or need it again. For example, if you type in "lifehacker" and your keyboard has never seen you use it before, it'll offer to correct it to another phrase that it thinks is more likely (no, I don’t mean “lifejacket”). You have three options: You can accept one of their corrections, you can ignore the word and leave it as is, or you can add it to your personal dictionary so it won't bother you when you type it again.
+
+If you accept a correction, obviously the keyboard will continue to assume the word is wrong, and offer corrections in the future. If you add it to your dictionary, the keyboard "learns" the word immediately, and will offer it up the next time you enter a spelling pattern that's close to those keys, or use similar words before and after the phrase but misspell "lifehacker." Things get interesting if you ignore the word—good predictive keyboards even use your lack of action to learn from your typing habits. The first or second time you ignore the word, it'll assume it's not a misspelling, but not a word you use often enough to be presented with in similar usage patterns. If you ignore it a third or fourth time (how many times depends on the specific keyboard), your keyboard will mark it as a future probable choice, and start presenting you with it when you type similar words or sentences.
+
+You can read more about the way predictive keyboards work in detail in this thread at Stack Exchange, which references the specific text in Apple's two patents (US Patent No. 8,232,973 and 8,074,172. The graphic above, which outlines how Apple's predictive keyboard processes words, comes from the latter. Depending on the keyboard you use, it may share a system-wide dictionary that leverages everything you type to build its scores, or it may split up dictionaries by app, so you're not using commonly texted phrases when you type an email and vice versa.
+How Predictive Keyboards Differ
+
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+
+Almost every modern predictive keyboard uses the type of technology we mentioned earlier. Even so, there are clear differences between the predictions that your phone's default keyboard makes and the ones you get from a keyboard like SwiftKey, Fleksy, or Swype. So what are those keyboards doing differently? We sat down with Joe Braidwood, Chief Marketing Officer for SwiftKey, our favorite Android keyboard (and one of our favorites on iOS), to talk about how those web-enabled keyboards do things differently. He said:
+
+    The single thing that unites these products is the fact that they attempt to predict words. This is pretty much where the comparisons end. Predictions can be simple, such as in older keyboards with Nuance’s T9. This is really about disambiguation—based on the keys that have been tapped, what words could be intended? They tend to use lists or dictionaries of words and are most famously what people refer to when they say “predictive text”.
+
+    Other more advanced predictive keyboards use a different approach to prediction that is based on natural language processing (specifically, probabilistic language modeling) and machine learning. The language modeling is what gives the predictive keyboard context—i.e. what lets it know how certain words tend to be combined together in language. As such, the accuracy of such keyboards tends to be far greater than older disambiguation keyboards. Add to that machine learning—what allows the keyboard to adapt continually in a smart way—and you have a typing experience that doesn’t stand still, but that tailors itself to a user. This is what makes those “damn you autocorrect” moments less likely, as if the keyboard gets it wrong once, it’s less likely to repeat the offending prediction.
+
+Of course, not every keyboard that bills itself as offering "predictive text" does this. The best—as in the ones that will type out entire sentences for you once you give it a starting word, or the ones that understand what you mean even if you type every single letter in a word incorrectly—are the ones that excel in this area.
+
+Then there are the keyboards that leverage the web for additional features. Braidwood explained that more predictive keyboards use cloud-enabled services and back-end processing to improve their predictions, sync user dictionaries across devices, and add new words to dictionaries without forcing users to download huge updates or re-train their keyboards:
+
+    Several predictive keyboards also offer cloud-based services which can involve a variety of features. Some of the more common features include: injecting contact names from online services into predictions, analyzing your writing on various online services to update and thereby personalize word predictions, storage and sync of your language model/predictions so they may be used on multiple devices and not lost if a device breaks or is stolen, and dynamic updating of your language model based on other language information crowd-sourced from real-time sites e.g. Twitter.
+
+For example, Swype's "Living Language" feature keeps your dictionary up to date with popular words trending on the web and in social media. SwiftKey offers SwiftKey Cloud, an optional service that can connect to your Twitter, Google, or Facebook account to learn from the things you've said on those networks or in your email. Google's predictive keyboard is similar, except it uses what you type on your Android device as well as anything you type in your Google account—emails, web search history, Google+, and so on. In all cases, these features are optional, have to be opted into, and can easily be opted out of.
+How To Improve Your Predictive Results
+
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+
+So now that we understand how text prediction works, there are some simple things you can do to improve your keyboard's predictions. It's important to remember that good predictions take time and training, so you won't go from horrible prediction mistakes to a near-psychic keyboard overnight, but every step you take helps a little bit. Here's what you can do:
+
+    Add more words to your dictionary. A lot of people actually don't do this, and rely on the keyboard to just pick up the words you use as you use them over time. It can do that, but it takes much much longer, and depending on how often you use specific words, they may still be ranked lower than the keyboard's own native predictions. If you use a specific word that your keyboard tries to correct more than twice, add it. Yes, even if it's embarrassing.
+    Learn to edit your dictionary, too. Just as you should know how to add words easily, you should be able to remove the ones the dictionary assumes you use (especially if you don't, and can re-add them at a lower score later.) If your keyboard just insists that you're typing "MacGee" when you mean "make," it may be best to just remove the former from your custom dictionary entirely, and when you do need it, you can type it manually.
+    Embrace cloud-enabled features. Obviously you should go into this with both eyes open, and we'll get to the privacy implications in a moment, but enabling services like cloud-backups of your custom dictionary will make sure all of your words are on all of your devices and you don't have to retrain them. Connecting your keyboard to other apps or choosing one with a system-wide dictionary instead of app-specific dictionaries will make it easier to type in every app. Finally, using keyboards that leverage always-updating cloud dictionaries (like Swype's "Living Language," for example) means your keyboard will always have and understand new words if you choose to use them. If you're using the default Google keyboard on Android, for example, enable "personalized suggestions."
+    Use Text Expansion. Most keyboards, both native and third-party, offer some form of text expansion. The default Google Keyboard has it, and iOS has had it for a while too. If you don't like those, or for some reason the keyboard you're using doesn't support text expansion, we have great text expansion suggestions for Android and for iOS as well. If you have particularly tricky words or phrases that autocorrect seems to garble regularly or the prediction engine just can't get right ever, set them to a short string of characters you can remember and eliminate the headache entirely.
+    Find a keyboard that works for your typing style. There are so many options for every mobile platform that you should never feel pigeonholed into using just one keyboard. Some of them offer fancy cloud features, but if you don't want those, try a slimmer keyboard with a more robust local prediction engine and improved autocorrect features. If the source of your bad predictions or mistakes come from fat-fingering, find a keyboard that lets you change the size and position of the letters on-screen, or has accessibility features that speak your words aloud before you send them, for example. If you've been trying and trying and can't get prediction right, it may be the keyboard, not you.
+
+Not all of those suggestions are keyboard-centric, but they'll all help improve your typing experience in general, and they won't take much time to put into practice. You may need to dig around and get familiar with your keyboard's settings first, but that's something you ideally should do anyway to make sure you're getting the best prediction and typing experience out of the one you're using. You may discover hidden features that save you time, like this trick to quickly enter your email address, for example.
+Enter Your Email Address Quickly on Your Phone with the @@ Shortcut
+
+Text expanders (a.k.a., on your phone: "keyboard shortcuts" in iOS and "personal…
+Read more
+Balance Prediction and Privacy
+
+How Predictive Keyboards Work (and How You Can Train Yours Better)
+
+Many predictive keyboards pull data from other services you use. Like we mentioned, Google's "Personalized Suggestions" use data from your Google account, and when SwiftKey, Swype, and other predictive keyboards launched on iOS, many newcomers to third-party keyboards saw that those keyboards requested "Full Access" and panicked, thinking they were going to spy on them and harvest sensitive data. Web-enabled services and improved prediction understandably come with privacy concerns.
+
+Obviously Android users have been using prediction and third party keyboards for a long time without issue, but as always with Android, the important thing is to understand why an app needs its permissions before you trust it. In iOS though, the "Full Access" error message only looks frightening. In short, full access enables an app (the keyboard in this case) to interact with its "container app," like a web browser or email app you're typing in. It just means that both apps get to work together and send data between one another. It's not synonymous with data leaving your device or being stored elsewhere. In fact, in the case of most third-party keyboards, no data leaves at all unless you specifically opt-in to those cloud-enabled features.
+Why Does This Android App Need So Many Permissions?
+
+Dear Lifehacker, I read your article about Chrome permissions last week, but I want to know about…
+Read more
+
+This is why some predictive keyboards request full access, and others shy away from it. Other iOS 8 keyboards may opt to push full updates more frequently, or insist you sign up for internet-connected services to enable prediction at all. Either way, the whole issue is an important reminder to check the privacy policy, permissions, and data security and retention policies of any predictive, internet-connected service before you use it. Go into it with both eyes open, and only connect services you feel comfortable allowing access to. If you have to deal with diminished functionality in order to preserve your privacy, that's fine—the important thing is that you're using a tool that lets you make that decision and opt-in, not require you to find a way to opt-out.
+
+At their heart, keyboards that use predictive text are alike. They use similar logic to offer you suggestions, and all try to learn from your habits. From there however, different keyboards split off and take different approaches to giving you just the word you want when you want it. Some go online and do their processing there, others hook into as much information as possible to learn about you. Whichever you choose, there are some ways to improve the predictions you get, and of course, protect your privacy at the same time.
+
+Joe Braidwood is Chief Marketing Officer at SwiftKey. He offered his expertise for this piece, and we thank him.
+
+Title photo made by Tina Mailhot-Roberge. Additional images by SirPecanGum and XKCD.
+557Reply
+
+    Alan Henry’s Discussions
+    All replies
+
+    verminskyi
+    Alan Henry
+    10/08/14 11:03am
+
+    What if you type in four languages?
+    1
+    Reply2 replies
+        Alan Henry
+        verminskyi
+        10/08/14 11:52am
+
+        Then you need a keyboard that can handle multiple languages. Plenty of them do, and do so with predictive capabilities. SwiftKey can, for one, and if I remember right, Swype can as well, although I think it only supports two languages at a time (although it supports up to 72 total, iirc.)
+        3
+        Reply
+    juansmith
+    Alan Henry
+    10/08/14 8:39am
+
+    I posted this on the original Gizmodo article for that xkcd comic above, but I'm curious if any other users have thoughts.
+    ____________________________________________
+
+    I won't be that asshole who says that Windows Phone has had [iOS8 predictive text] since the previous rev, but I will be that asshole who puts it to the test :)
+
+    Windows Phone:
+
+    "Say hello to my little brother and sister and brother and sister and brother and sister and brother and sister and..." [I stopped here]
+
+    "Toto, I've a feeling we're not going to the beach tomorrow night."
+
+    "Bond. James Bond between two points and rebounds per game."
+
+    "Goonies never say never."
+
+    "You have my sword. And my bow. And my mom."
+
+    And...I swear this one is accurate:
+
+    "I'm a leaf on the wind. Watch me burn down the stairs with a smile."
+
+    Couple of interesting points here:
+        There's definitely some user direction here. I can't speak for iOS8, but Windows Phone's words didn't *always* make grammatical sense within the sentence, even if they would often make sense following that word in another context.
+        "Bond" going to "between" was an odd one - from then on, it seemed to go for a sports context, so it kinda made sense. But that was a strange leap to begin with.
+        Makes sense that it's prioritizing personal relationships. You say "Say hello to", you could be priming it to think the object of the sentence is a person, but I don't know if it's even that smart. "You have my ____" would seem to suggest an object (particularly later in the sentence, after listing two other objects), and it still went for a personal relationship (I got "dad" as a suggestion too - it was just after "mom", "friends", "friend", and "sister").
+        That endless loop of brother and sister is pretty damning for its sentence-level cognition. I've had Windows Phone almost type out entire text messages for me from nothing but the first two words, but it was usually when I was sending something extremely common like "I'll be there in five minutes" or somesuch. I'm curious if any iOS8 users found themselves capable of producing similar loops - each word in "brother and sister" kept presenting itself as an option at the appropriate grammatical time only, which suggests that it's searching at least that block of 2-3 words in order to make its guess.
+
+    Thoughts? If any Android users care to chime in their results, I'd be curious to see those as well.
+    3
+    Reply4 replies
+        Moonshadow Kati aka Lady Locksmith
+        juansmith
+        10/08/14 9:14am
+
+        I think you probably don't type "Bond" all that often. All it takes is one or two times saying "we want to form a nice bond between..."
+
+        My results, reposting from above:
+
+        Say hello to my little pony friendship is magic.
+
+        Toto, i've a feeling we're not going to be a bother but we have some things to do.
+
+        Bond. James Bond with the tip of the cock.
+
+        I'm a leaf on the wind. Watch the video.
+
+        Goonies never say never.
+
+        You have my sword. And my bow. And my love for you.
+
+        Interesting points about my results:
+
+        Some of these turn out as they did because we start autocorrecting from a very common word.
+
+        Clearly I do ERP on my phone. I'm surprised "mistress" didn't pop up any.
+
+        "Goonies never say never" sounds like it could actually be legit, even if it isn't the actual line.
+        4
+        Reply1 replies
+        definitelydave
+        juansmith
+        10/08/14 9:27am
+
+        Using Windows Phone 8.1
+            Say hello to my little sister is a good day
+            Toto, I've a feeling we're not going to be a good day
+            Bond.James Bond with the same time
+            I'm a leaf on the wind. Watch the game is on the phone
+            Goonies never say never
+            you have my sword. and my bow and my mom
+
+        My phone is so new, it's dictionary is pretty much OOB. I noticed that every time 'a' popped up, it would lead to ' a good day'.
+        2
+        Reply2 replies
+        Alan Henry
+        juansmith
+        10/08/14 11:52am
+
+        Hah - that's actually really interesting. I'd love to see more people test this on their own as well to see what they turn up. :D
+
+        Let's see - let me add mine:
+
+        Say hello to my little bit of the new york.
+
+        Toto, I've a feeling we're not the new york. (I don't even LIVE in new york!)
+
+        Bond. James Bond this is a few days.
+
+        I'm a lead on the wind. Watch me know if you are you are you are...
+
+        Goonies never say that I am so I am so I am....
+
+        You have my sword. And my bow. And my resume. (oops.)
+
+        Oh - and the header: Elementary, my dear Sir.
+        2
+        Reply
+        juansmith
+        Alan Henry
+        10/08/14 12:02pm
+
+        Whoa, your "Bond" elicited something weird too.
+        Reply
+        Whitson Gordon
+        Alan Henry
+        10/08/14 12:21pm
+
+        WHO HAS YOUR RESUME AND WHY
+        3
+        Reply
+
+Load more
+You may also like
+Gizmodo · George Musser
+A New Way of Thinking About Spacetime That Turns Everything Inside Out
+Today 8:40am
+Adequate Man · Drew Magary
+Greg Hardy Isn’t Good Enough To Keep
+Today 12:22pm
+Gawker · Ashley Feinberg
+A Guide to Ben Carson's Biggest Fictions, Misstatements, and Exaggerations
+Today 1:45pm
+
+57
+5
+The 10 Most Popular European Cars in the U.S. - CarophileRead on Carophile
+The Most Exciting MMORPG You've Ever Played. Don't miss this!Read on Sparta Online Game
+A New MMORPG You Won't Get Bored With. Click Here To Try!Read on Stormfall - Online Game
+Swiss-Strengthens Economic Partnership with U.S.Read on CIO for Switzerland Global Enterprise
+6 Chief Investment Officers On Trends To Dominate Next 18 MonthsRead on Financial Times
+The Ultimate Way to Get Cheap Hotel RoomsRead on Hotel Bargains
+Men: Dominate Winter With These Versatile Leather BootsRead on GQ for UGG
+Index providers clash over evolution of multi-factor productsRead on Risk.net
+3 Supercars, 2 Iconic Hotels-1 Unforgettable Experience-Watch The RaceRead on How To Spend It with Waldorf Astoria
+The 214 Best Animated Cat GIFs on the InternetRead on ReshareList
+REI to Close Stores on Black Friday and Encourages Customers to Go OutsideRead on Time
+Cinema Not To Be Pushed Aside By Media Subscription ServicesRead on Financial Times
+  
+by Taboola 
+Sponsored Links 
+
+    About Blog
+    Need Help?
+    Content Guide
+
+    Permissions
+    Privacy
+    Terms of Use
+    Advertising
+    Jobs
+    RSS
+
+A new last
