@@ -15,6 +15,11 @@ function text_sanitize($text) {
 
   // Trim
   $text = trim($text);
+  
+  // Make strings lower case to remove case sensitivity
+  // TODO: Find a beter way for removing case sensitivity
+  // Becase this will show all lower case words to user
+  $text = strtolower($text);
 
   // extract words
   $words = explode(' ', $text);

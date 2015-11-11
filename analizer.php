@@ -2,8 +2,6 @@
 <?php
 require_once "common.inc.php";
 
-// TODO: Remove case sensitivity
-
 // Read input
 $text = file_get_contents('data/file.txt');
 $words = text_sanitize($text);
