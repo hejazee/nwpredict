@@ -7,7 +7,7 @@ $data = file_get_contents('data-analized/file.txt.json');
 $graph = json_decode($data, TRUE);
 
 // Some sample text. predict next word
-$text = 'A new car worda Lifehacker';
+$text = 'A new story';
 $next_words = predict($text, $graph);
 print_r($next_words);
 echo $text . ' <strong>' . $next_words[0] . '</strong>';
@@ -27,21 +27,40 @@ function predict($text, $graph) {
   // Search the graph
   // First look for longest path (3 bridges)
   if (isset($graph[$word1][$word2][$word3])) {
-    $suggestions += get_best_three_scores($graph[$word1][$word2][$word3]);
+    $sug = get_best_three_scores($graph[$word1][$word2][$word3]);
+    
+    // Remove empty elements
+    $sug = array_filter($sug);
+    
+    // Append to suggestions
+    $suggestions += $sug;
   }
   
   // If we have not three suggestions yet, look for 2-bridges paths
   if ((count($suggestions) < 3) && isset($graph[$word2][$word3])) {
-    $suggestions += get_best_three_scores($graph[$word2][$word3]);
+    $sug = get_best_three_scores($graph[$word2][$word3]);
+    
+    // Remove empty elements
+    $sug = array_filter($sug);
+    
+    // Append to suggestions
+    $suggestions += $sug;
   }
   
   // If we have not three suggestions yet, look for 1-bridge paths
   if ((count($suggestions) < 3) && isset($graph[$word3])) {
-    $suggestions += get_best_three_scores($graph[$word3]);
+    $sug = get_best_three_scores($graph[$word3]);
+    
+    // Remove empty elements
+    $sug = array_filter($sug);
+    
+    // Append to suggestions
+    $suggestions += $sug;
   }
   
-  // TODO: Remove duplicate suggestions
+  // Remove duplicate suggestions
   // Duplicates can be genereted between above three levels of lookup.
+  $suggestions = array_unique($suggestions);
   
   return $suggestions;
 }
