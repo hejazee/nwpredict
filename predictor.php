@@ -7,10 +7,14 @@ $data = file_get_contents('data-analized/file.txt.json');
 $graph = json_decode($data, TRUE);
 
 // Some sample text. predict next word
-$text = 'some';
+$text = 'In its most popular';
 $next_words = predict($text, $graph);
 print_r($next_words);
-echo $text . ' <strong>' . $next_words[0] . '</strong>';
+if (!empty($next_words)) {
+  echo $text . ' <strong>';
+  echo isset($next_words[0]) ? $next_words[0] : '';
+  echo '</strong>';
+}
 
 function predict($text, $graph) {
   // This function gives three suggestions
