@@ -1,4 +1,3 @@
-<pre>
 <?php
 require_once "common.inc.php";
 
@@ -7,14 +6,16 @@ $data = file_get_contents('data-analized/file.txt.json');
 $graph = json_decode($data, TRUE);
 
 // Some sample text. predict next word
-$text = 'In its most popular';
+$text = isset($_GET['phrase']) ? $_GET['phrase'] : '';
 $next_words = predict($text, $graph);
-print_r($next_words);
-if (!empty($next_words)) {
-  echo $text . ' <strong>';
-  echo isset($next_words[0]) ? $next_words[0] : '';
-  echo '</strong>';
-}
+
+echo json_encode($next_words);
+
+//if (!empty($next_words)) {
+//  echo $text . ' <strong>';
+//  echo isset($next_words[0]) ? $next_words[0] : '';
+//  echo '</strong>';
+//}
 
 function predict($text, $graph) {
   // This function gives three suggestions
