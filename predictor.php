@@ -7,7 +7,7 @@ $data = file_get_contents('data-analized/file.txt.json');
 $graph = json_decode($data, TRUE);
 
 // Some sample text. predict next word
-$text = 'A new story';
+$text = 'some';
 $next_words = predict($text, $graph);
 print_r($next_words);
 echo $text . ' <strong>' . $next_words[0] . '</strong>';
