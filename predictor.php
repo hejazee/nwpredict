@@ -9,6 +9,11 @@ $graph = json_decode($data, TRUE);
 $text = isset($_GET['phrase']) ? $_GET['phrase'] : '';
 $next_words = predict($text, $graph);
 
+// reset array keys
+// They should be 1,2,3 (not 1,3 for example)
+// TODO: find a better way so that predict() does not return 1,3 array keys.
+$next_words = array_values($next_words);
+
 echo json_encode($next_words);
 
 //if (!empty($next_words)) {
