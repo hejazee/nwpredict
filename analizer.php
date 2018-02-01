@@ -1,16 +1,25 @@
-<pre>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+    <pre>
 <?php
 require_once "common.inc.php";
 
 // Read input
 $text = file_get_contents('data/file.txt');
 $words = text_sanitize($text);
+// print_r($words);
 
 // Create graph array
 $graph = create_graph($words);
 
+$json = json_encode($graph);
+
 // Serialize graph and save it to a file
-file_put_contents('data-analized/file.txt.json', json_encode($graph));
+file_put_contents('data-analized/file.txt.json', $json);
 
 /**
  * Create graph
@@ -95,3 +104,6 @@ function create_graph($words) {
   
   return $graph;
 }
+?>
+    </body>
+</html>
