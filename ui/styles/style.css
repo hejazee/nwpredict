@@ -35,6 +35,8 @@ body {
   font-family: tahoma;
   margin-top: 0.5em;
   border: 1px solid #ddd;
+  direction: rtl;
+  text-align: right;
 }
 
 #suggestions .sug {
